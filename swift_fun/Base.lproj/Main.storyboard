@@ -24,8 +24,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L73-IW-blw">
-                                <rect key="frame" x="144.5" y="374" width="86" height="30"/>
-                                <state key="normal" title="Change Text"/>
+                                <rect key="frame" x="158" y="374" width="59" height="30"/>
+                                <state key="normal" title="Click me"/>
                                 <connections>
                                     <action selector="myButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lmu-xJ-EWI"/>
                                 </connections>

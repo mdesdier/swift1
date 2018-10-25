@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var buttonCount=0
+    var buttonCount=0  //count number of times button is pressed
     @IBOutlet weak var MyLabel1: UILabel!
  
     @IBAction func myButtonTap(_ sender: Any) {

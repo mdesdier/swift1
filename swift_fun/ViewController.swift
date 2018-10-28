@@ -6,6 +6,7 @@
 //  Copyright © 2018 Tepo Labs. All rights reserved.
 //
 //  new comment for kraken.  remove old one.
+//  additional comment. this to be committed through kraken.
 
 import UIKit
 

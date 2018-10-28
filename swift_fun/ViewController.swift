@@ -5,7 +5,7 @@
 //  Created by tester on 10/24/18.
 //  Copyright © 2018 Tepo Labs. All rights reserved.
 //
-//  comment for kraken
+//  new comment for kraken.  remove old one.
 
 import UIKit
 

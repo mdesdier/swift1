@@ -16,6 +16,10 @@ class ViewController: UIViewController {
     var buttonCount=0  //count number of times button is pressed
     @IBOutlet weak var MyLabel1: UILabel!
  
+    @IBOutlet weak var MyTopTextField: UITextField!
+   
+    @IBOutlet weak var MyBottomTextField: UITextField!
+    
     @IBAction func myButtonTap(_ sender: Any) {
         buttonCount=buttonCount+1
         print(buttonCount)

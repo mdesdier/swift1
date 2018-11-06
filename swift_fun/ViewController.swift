@@ -21,12 +21,20 @@ class ViewController: UIViewController {
     @IBOutlet weak var MyBottomTextField: UITextField!
     
     @IBAction func myButtonTap(_ sender: Any) {
-        buttonCount=buttonCount+1
+        
+        var sum = 0.0
+            
+        sum = Double(MyTopTextField.text!)! + Double(MyBottomTextField.text!)!
+        
+        MyLabel1.text = "the sum is \(sum)"
+        
+        
+        /* buttonCount=buttonCount+1
         print(buttonCount)
         if buttonCount > 5 {
             MyLabel1.text="Hello Wolf 5"
             view.backgroundColor=UIColor.blue
-        }
+        }*/
     }
     
     override func viewDidLoad() {

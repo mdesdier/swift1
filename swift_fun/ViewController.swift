@@ -20,13 +20,22 @@ class ViewController: UIViewController {
    
     @IBOutlet weak var MyBottomTextField: UITextField!
     
+    @IBOutlet weak var AdditionSwitch: UISwitch!
     @IBAction func myButtonTap(_ sender: Any) {
         
         var sum = 0.0
-            
-        sum = Double(MyTopTextField.text!)! + Double(MyBottomTextField.text!)!
+        let addition = AdditionSwitch.isOn
         
-        MyLabel1.text = "the sum is \(sum)"
+        
+        if addition {
+        sum = Double(MyTopTextField.text!)! + Double(MyBottomTextField.text!)!
+       
+            MyLabel1.text = "the sum is \(sum)"
+        } else {
+            sum = Double(MyTopTextField.text!)! - Double(MyBottomTextField.text!)!
+            
+            MyLabel1.text = "the difference is \(sum)"
+        }
         
         
         /* buttonCount=buttonCount+1
